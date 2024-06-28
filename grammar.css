@@ -86,7 +86,7 @@ h1{
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 35px;
+  font-size: 25px;
   min-width: none;
 }
 
@@ -111,7 +111,7 @@ h1{
 
     background-color: rgb(25, 63, 127);
     width:300px;
-    height: 300px;px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,6 +125,6 @@ h1{
 
 }
 
-p{ font-size: 35px;}
+p{ font-size: 55px;}
 
 

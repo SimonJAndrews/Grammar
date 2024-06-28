@@ -28,6 +28,6 @@ function getValue(value){
 
 
 function myFunction(){
-   paragraphOne.textContent = random(1,6);
+   paragraphOne.textContent = random(1,7);
    getValue(question(0,3));
 }
