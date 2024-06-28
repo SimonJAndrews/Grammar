@@ -1,16 +1,33 @@
-let paragraphOne = document.querySelector(".para1");
+const paragraphOne = document.querySelector(".para1");
  const paragraphTwo = document.querySelector(".para2");
-
- function randomNumber(min,max){
-    return Math.floor(Math.random() * (max - min + 1) + min);
- }
-
- let returnValue = randomNumber(1,6);
-
- console.log(returnValue)
-
- if(returnValue >= 1 && returnValue <= 6){
-    document.querySelector(".para1").textContent = returnValue; 
- }
+ let value;
  
 
+const trigger = document.querySelector('.button-29').addEventListener("click" , myFunction);
+
+function random(min, max){
+   return Math.floor(Math.random() * (max - min) + min)
+}
+
+function question(min, max){
+   return Math.floor(Math.random() * (max - min) + min)
+}
+
+ value = question();
+ 
+
+function getValue(value){
+   if (value === 0){
+   paragraphTwo.textContent = "+"
+} else if (value === 1){
+   paragraphTwo.textContent = "-"
+}else{
+   paragraphTwo.textContent = "?"
+}}
+
+
+
+function myFunction(){
+   paragraphOne.textContent = random(1,6);
+   getValue(question(0,3));
+}

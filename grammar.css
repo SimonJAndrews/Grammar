@@ -86,7 +86,7 @@ h1{
   touch-action: manipulation;
   white-space: nowrap;
   will-change: box-shadow,transform;
-  font-size: 18px;
+  font-size: 35px;
   min-width: none;
 }
 
@@ -121,9 +121,10 @@ h1{
     border: 2px solid white;
     border-radius: 30px;
     margin-top: 50px;
-    font-size: larger;
     color: rgb(194, 202, 202);
 
 }
+
+p{ font-size: 35px;}
 
 
